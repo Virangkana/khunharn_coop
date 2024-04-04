@@ -392,16 +392,14 @@
         function pop_polygon_khunharn_6(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                 <th scope="row">Farmer Reference</th>\ 
+                 
                         <td colspan="2">' + (feature.properties['Farmer Reference'] !== null ? autolinker.link(feature.properties['Farmer Reference'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                        
                 <td colspan="2">' + (feature.properties['Farm Reference'] !== null ? autolinker.link(feature.properties['Farm Reference'].toLocaleString()) : '') + '</td>\
                     </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['Farm Polygon'] !== null ? autolinker.link(feature.properties['Farm Polygon'].toLocaleString()) : '') + '</td>\
-                    </tr>\
+                    
                     <tr>\
                         <td colspan="2">' + (feature.properties['Farm Location Long'] !== null ? autolinker.link(feature.properties['Farm Location Long'].toLocaleString()) : '') + '</td>\
                     </tr>\
