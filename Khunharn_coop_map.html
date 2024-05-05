@@ -39,10 +39,10 @@
         <script src="data/khunharnGeolocation_6.js"></script>
         <script>
         var map = L.map('map', {
-            zoomControl:true, maxZoom:28, minZoom:1
-        }).fitBounds([[10.929261331085609,91.4962197475072],[19.877307408059686,109.23610066175195]]);
+             zoomControl:true, maxZoom:28, minZoom:1
+        }).fitBounds([[14.542817770937596,104.64472668446471],[14.56363761108902,104.6857912236178]]);
         var hash = new L.Hash(map);
-        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+       map.attributionControl.setPrefix('<a href="https://v2.traztru.com/login" target="_blank">TrazTru</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
         var measureControl = new L.Control.Measure({
             position: 'topleft',
