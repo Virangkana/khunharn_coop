@@ -725,10 +725,10 @@
                 lineCap: 'butt',
                 lineJoin: 'miter',
                 weight: 1,
-                fill: false,
+                fill: true,
                 fillOpacity: 0.5,
                 fillColor: 'rgba(255,12,12,1.0)',
-                interactive: false,
+                interactive: true,
             }
         }
         map.createPane('pane_khunharnGeolocation_6');
@@ -736,7 +736,7 @@
         map.getPane('pane_khunharnGeolocation_6').style['mix-blend-mode'] = 'normal';
         var layer_khunharnGeolocation_6 = new L.geoJson(json_khunharnGeolocation_6, {
             attribution: '',
-            interactive: false,
+            interactive: true,
             dataVar: 'json_khunharnGeolocation_6',
             layerName: 'layer_khunharnGeolocation_6',
             pane: 'pane_khunharnGeolocation_6',
